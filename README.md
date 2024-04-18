@@ -1,0 +1,3 @@
+- Run node 21
+- Run `pnpm turbo dev` (Expect to see the console.log statement)
+- Run `pnpm turbo dev2` (Expect to see the console.log statement, but you don't because the script is importing from 'node:process')
