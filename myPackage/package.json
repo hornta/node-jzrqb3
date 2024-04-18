@@ -1,0 +1,16 @@
+{
+  "name": "my-package",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "dev2": "tsx watch index2.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "tsx": "^4.7.2"
+  },
+  "dependencies": {
+    "turbo": "^1.13.2"
+  }
+}

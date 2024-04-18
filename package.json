@@ -1,0 +1,17 @@
+{
+  "name": "tsx-starter",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "tsx": "^4.7.2"
+  },
+  "dependencies": {
+    "turbo": "^1.13.2"
+  }
+}
